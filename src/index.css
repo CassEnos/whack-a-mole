@@ -1,4 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.welcome {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.field {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  width: 300px;
+  margin: 50px auto;
+}
 .hole {
   background: url("/hole.png") no-repeat center/contain;
 }
@@ -6,4 +25,3 @@
 .mole {
   background-image: url("/mole.png");
 }
-
